@@ -1,0 +1,10 @@
+lib for virtualenv: pip install virtualenv
+create envorment: python -m venv .env
+activate envorment: .env\Scripts\activate
+
+after activate envorment install all packages: pip install <package name>
+
+create requirement folder: pip freeze > requirement.txt
+install requirement: pip install -r requirement.txt
+
+deactivate envorment: deactivate
